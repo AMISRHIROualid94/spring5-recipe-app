@@ -22,4 +22,5 @@ public class RecipeServiceImpl implements RecipeService{
         recipeRepository.findAll().iterator().forEachRemaining(recipes::add);
         return recipes;
     }
+
 }
